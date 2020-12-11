@@ -98,7 +98,7 @@ trait TaggableTrait
     /**
      * {@inheritdoc}
      */
-    public function tags(): MorphToMany
+    public function tags()
     {
         return $this->morphToMany(static::$tagsModel, 'taggable', 'tagged', 'taggable_id', 'tag_id');
     }
