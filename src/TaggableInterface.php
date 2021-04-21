@@ -79,7 +79,7 @@ interface TaggableInterface
      *
      * @return \Illuminate\Database\Eloquent\Relations\MorphToMany
      */
-    public function tags(): MorphToMany;
+    public function tags();
 
     /**
      * Returns all the tags under the entity namespace.
